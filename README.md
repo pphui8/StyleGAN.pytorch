@@ -1,19 +1,8 @@
 # StyleGAN.pytorch
 
-## \[:star: New :star:\] Please head over to [Official PyTorch implementation](https://github.com/NVlabs/stylegan2-ada-pytorch).
-
-<p align="center">
-     <img src=diagrams/grid.png width=100% /> <br>
-     <a align="center" href="http://www.seeprettyface.com/mydataset.html">[ChineseGirl Dataset]</a>
-</p>
-
-This repository contains the unofficial PyTorch implementation of the following paper:
-
-> A Style-Based Generator Architecture for Generative Adversarial Networks <br>
-> Tero Karras (NVIDIA), Samuli Laine (NVIDIA), Timo Aila (NVIDIA) <br>
-> http://stylegan.xyz/paper
-> 
-> Abstract: We propose an alternative generator architecture for generative adversarial networks, borrowing from style transfer literature. The new architecture leads to an automatically learned, unsupervised separation of high-level attributes (e.g., pose and identity when trained on human faces) and stochastic variation in the generated images (e.g., freckles, hair), and it enables intuitive, scale-specific control of the synthesis. The new generator improves the state-of-the-art in terms of traditional distribution quality metrics, leads to demonstrably better interpolation properties, and also better disentangles the latent factors of variation. To quantify interpolation quality and disentanglement, we propose two new, automated methods that are applicable to any generator architecture. Finally, we introduce a new, highly varied and high-quality dataset of human faces.
+## checkpoints
+链接: https://pan.baidu.com/s/1g1MU_p6tXqdKs_pomQfGPw  
+提取码: e88f 复制这段内容后打开百度网盘手机App，操作更方便哦
 
 
 ## Features
@@ -78,24 +67,6 @@ python generate_truncation_figure.py --config configs/sample_cari2_128_truncatio
 ```shell script
 python convert.py --config configs/sample_ffhq_1024.yaml --input_file PATH/karras2019stylegan-ffhq-1024x1024.pkl --output_file ffhq_1024_gen.pth
 ```
-
-## Generated samples
-
-<p align="center">
-     <img src=diagrams/ffhq_128.png width=90% /> <br>
-     <a align="center" href="https://github.com/NVlabs/ffhq-dataset">[FFHQ Dataset](128x128)</a>
-</p>
-
-Using weights tranferred from official tensorflow repo.
-<p align="center">
-     <img src=diagrams/ffhq_1024.png width=90% /> <br>
-     <a align="center" href="https://github.com/NVlabs/ffhq-dataset">[FFHQ Dataset](1024x1024)</a><br>
-</p>
-
-<p align="center">
-     <img src=diagrams/cari2_128.png width=90% /> <br>
-     <a align="center" href="https://cs.nju.edu.cn/rl/WebCaricature.htm">[WebCaricatureDataset](128x128)</a><br>
-</p>
 
 ## Reference
 
